@@ -9,7 +9,7 @@
 <body>
 <div class="content" >
 <?php
-	$array = array("Kropak","Andante","FrevoFC","madv-fc","afmr-fc","campos-team", "nunes-recife-futebol");
+	$array = array("Kropak","Andante","FrevoFC","madv-fc","afmr-fc","campos-team", "nunes-recife-futebol"); 
 	
 	    	$urlScouts = 'https://api.cartolafc.globo.com/atletas/pontuados';
 		$siteScouts = file_get_contents($urlScouts);
